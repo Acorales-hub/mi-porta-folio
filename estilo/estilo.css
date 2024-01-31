@@ -1,0 +1,22 @@
+/*Selectores Id*/
+#fondoGradientVinoTinto{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+background: linear-gradient(135deg,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+color: azure;
+}
+
+#fondoGradientVinoTintoFooter{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ed042f+0,01000a+44,6d0019+100 */
+background: linear-gradient(135deg,  #ed042f 0%,#01000a 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+color: azure;
+}
+
+#fondoGradientVinoTintoFooter ul li{
+    list-style: none;
+    font-size: 18px;
+}
+
+#fondoGradientVinoTintoFooter a{
+    color: azure;
+    text-decoration: none;
+}
