@@ -78,6 +78,15 @@ background: #f5f6f7;
     margin-top: 1rem;
 }
 
+.hero-inferior{
+    background-color: #f5f6f7;
+}
+
+.hero-inferior-imagen{
+    justify-content: center;
+    align-items: center;
+}
+
 .imagen-hero-desarrollador{
     width: 200px;
     height: 200px;
@@ -93,5 +102,11 @@ background: #f5f6f7;
 
     .card{
         display: none;
+    }
+}
+
+@media screen and (min-width:700px){/*[IMAGEN DE HERO INFERIOR: LAPTOP,MONITOR,HTML,CSS,JS,REACT]*/
+    .hero-inferior-imagen{
+        max-width: 600px;
     }
 }
