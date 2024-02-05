@@ -69,6 +69,13 @@ background: #f5f6f7;
     padding: 3rem;
 }
 
+.hero-principal h2{
+    font-size: 2rem;
+    color: #615151;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
 .imagen-hero-desarrollador{
     width: 200px;
     height: 200px;
