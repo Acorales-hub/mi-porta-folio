@@ -10,11 +10,11 @@ section{
 
 }
 
-h1{
+/*h1{
     font-size: 2.5rem;
     font-family: "Rubik Dirt", system-ui;
     text-align: center;
-}
+}*/
 
 /*----------------------------------Selectores Id:*/
 
@@ -48,6 +48,10 @@ color: azure;
 #fondo-deg-hero{
 
 background: #f5f6f7;
+}
+
+#link-header a:hover{
+    text-decoration: underline;
 }
 
 /*----------------------------------SELECTORES DE CLASE:*/
@@ -93,6 +97,22 @@ background: #f5f6f7;
     border-radius: 50%;
     margin: 20px;
 }
+
+.exo-font {/*[ESTILO DE LETRAS]*/
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-size:xx-large;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.rubik-dirt-regular {/*[ESTILO DE LETRAS]*/
+    font-family: "Rubik Dirt", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*----------------------------------------Media Querys:*/
 
 @media screen and (max-width:767px){
