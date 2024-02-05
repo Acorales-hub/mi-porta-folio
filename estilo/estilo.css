@@ -98,6 +98,12 @@ background: #f5f6f7;
     margin: 20px;
 }
 
+.ephesis-regular {/*[ESTILO DE LETRAS]*/
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .exo-font {/*[ESTILO DE LETRAS]*/
     font-family: "Exo", sans-serif;
     font-optical-sizing: auto;
