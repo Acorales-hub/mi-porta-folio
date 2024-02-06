@@ -96,9 +96,30 @@ background: #f5f6f7;
     margin: 20px;
 }
 
-.fondo-oscuro{/*[SECCIÓN: SOBRE MI]*/
-
+.seccion-oscura{/*[SECCIÓN: SOBRE MI]*/
+    background-color: #1b1b32;
+    color:white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
 }
+
+.seccion-oscura p{/*[SECCIÓN: SOBRE MI]*/
+    text-align: justify;
+    padding: 7px;
+    margin: 7px;
+}
+.sobre-mi{/*[SECCIÓN: SOBRE MI]*/
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+
 
 .ephesis-regular {/*[ESTILO DE LETRAS]*/
     font-family: "Ephesis", cursive;
