@@ -28,11 +28,6 @@ background: linear-gradient(135deg,  rgba(0,25,104,1) 0%,rgba(53,106,160,1) 100%
 
 }
 
-#fondoGradientVinoTintoFooter{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ed042f+0,01000a+44,6d0019+100 */
-background: linear-gradient(135deg,  #ed042f 0%,#01000a 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-color: azure;
-}
 
 #fondoGradientVinoTintoFooter ul li{
     list-style: none;
@@ -68,37 +63,41 @@ background: #f5f6f7;
     justify-content: space-between;
 }
 
-.hero{/*[SECCIÓN HERO]*/
+.hero{/*[SECCIÓN: HERO]*/
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
 }
 
-.hero-principal{
+.hero-principal{/*[SECCIÓN: HERO]*/
     padding: 3rem;
 }
 
-.hero-principal h2{
+.hero-principal h2{/*[SECCIÓN: HERO]*/
     font-size: 2rem;
     color: #615151;
     text-align: justify;
     margin-top: 1rem;
 }
 
-.hero-inferior{
+.hero-inferior{/*[SECCIÓN: HERO]*/
     background-color: #f5f6f7;
 }
 
-.hero-inferior-imagen{
+.hero-inferior-imagen{/*[SECCIÓN: HERO]*/
     justify-content: center;
     align-items: center;
 }
 
-.imagen-hero-desarrollador{
+.imagen-hero-desarrollador{/*[SECCIÓN: HERO]*/
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 20px;
+}
+
+.fondo-oscuro{/*[SECCIÓN: SOBRE MI]*/
+
 }
 
 .ephesis-regular {/*[ESTILO DE LETRAS]*/
