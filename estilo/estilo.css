@@ -127,14 +127,63 @@ background: #f5f6f7;
 }
 
 .experiencia{/*[SECCIÓN: EXPERIENCIA]*/
-    padding: 2px;
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .row{/*[SECCIÓN: EXPERIENCIA]*/
+  height: 371px;
+  background-color: #e8e8f0;
+}
+
+.experiencia div{/*[SECCIÓN: EXPERIENCIA]*/
+  border:1px solid orange;
+}
+
+.experiencia i{/*[SECCIÓN: EXPERIENCIA]*/
+  
+  font-size: 2.5rem;
+  color:#7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia .columna{/*[SECCIÓN: EXPERIENCIA]*/
+  padding: 20px;
+  border: 1px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{/*[SECCIÓN: EXPERIENCIA]*/
+background-color: #1b1b32;
+color: white;
+
+}
+
+.experiencia-titulo{/*[SECCIÓN: EXPERIENCIA]*/
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 5px 0;
 }
 
 .seccion-clara{/*[SECCIÓN: EXPERIENCIA]*/
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
+.badges-contenedor{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.badge{
+  margin: 2px;
+}
 
 .ephesis-regular {/*[ESTILO DE LETRAS]*/
     font-family: "Ephesis", cursive;
