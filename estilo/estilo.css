@@ -20,8 +20,11 @@ section{
 
 #fondoGradientVinoTinto{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
-background: linear-gradient(135deg,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*background: linear-gradient(135deg,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 color: azure;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001968+0,356aa0+100 */
+background: linear-gradient(135deg,  rgba(0,25,104,1) 0%,rgba(53,106,160,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 
 }
 
