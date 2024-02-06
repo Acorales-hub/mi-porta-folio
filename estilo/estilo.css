@@ -121,9 +121,18 @@ background: #f5f6f7;
     padding: 10px;
 }
 
-.sobre-mi .contenedor{
+.sobre-mi .contenedor{/*[SECCIÓN: SOBRE MI]*/
     max-width: 600px;
     text-align: center;
+}
+
+.experiencia{/*[SECCIÓN: EXPERIENCIA]*/
+    padding: 2px;
+}
+
+.seccion-clara{/*[SECCIÓN: EXPERIENCIA]*/
+    color: black;
+    background-color: white;
 }
 
 
