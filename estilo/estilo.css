@@ -195,9 +195,27 @@ color: white;
   margin: 5px 0;
 }
 
+.seccion-texto{
+  font-size: 1.2rem;
+}
+
+.texto-negro{
+  color: black;
+}
+
+.texto-blanco{
+  color: white;
+}
+
 .badge{
   margin: 2px;
 }
+
+.proyectos-recientes{
+  padding: 40px;
+
+}
+
 
 .ephesis-regular {/*[ESTILO DE LETRAS]*/
     font-family: "Ephesis", cursive;
