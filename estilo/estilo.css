@@ -229,6 +229,10 @@ color: white;
   transition: all 0.2s ease;
 }
 
+.poyectos-contenedor{
+  padding: 60px;
+  margin-bottom: 40px;
+}
 
 .ephesis-regular {/*[ESTILO DE LETRAS]*/
     font-family: "Ephesis", cursive;
