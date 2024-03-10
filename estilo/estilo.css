@@ -250,6 +250,16 @@ color: white;
   margin-bottom: 0;
 }
 
+.overlay .iconos-contenedor{
+  display: flex;
+}
+
+.overlay i{
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
 .proyecto{
   position: relative;
 }
