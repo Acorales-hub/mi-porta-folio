@@ -124,20 +124,20 @@ background: #f5f6f7;
     padding: 7px;
     margin: 1px;
     font-size: 1.5rem;
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     justify-content: center;
     align-items: center;
 }
 .sobre-mi{/*[SECCIÓN: SOBRE MI]*/
     height: 90%;
     padding: 5px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .sobre-mi .contenedor{/*[SECCIÓN: SOBRE MI]*/
     width: 99.9%;
     text-align: center;
-    border: 1px solid orange;
+    /*border: 1px solid orange;*/
 }
 
 .experiencia{/*[SECCIÓN: EXPERIENCIA]*/
@@ -150,7 +150,8 @@ background: #f5f6f7;
 }
 
 .experiencia div{/*[SECCIÓN: EXPERIENCIA]*/
-  border:1px solid orange;
+  /*border:1px solid orange;*/
+  background-color: #e8e8f0;
 }
 
 .experiencia i{/*[SECCIÓN: EXPERIENCIA]*/
@@ -296,6 +297,17 @@ color: white;
 }
 
 /*----------------------------------------Media Querys:*/
+
+@media screen and (max-width:400px){
+  .overlay p{
+    font-size: 18px;
+  }
+
+  .overlay i{
+    font-size: 14px;
+  }
+}
+
 
 @media screen and (max-width:767px){
     .navbar-brand{
