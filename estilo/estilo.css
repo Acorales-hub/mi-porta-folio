@@ -1,301 +1,287 @@
-
+/*
+Código css corregido:
+1. En el selector `#fondoGradientAzul`, estás utilizando dos definiciones de `background`, lo cual es redundante. Puedes eliminar la primera y dejar solo la segunda.
+2. En el selector `#fondoGradientVinoTintoFooter ul li`, no es necesario usar `ul li` ya que `#fondoGradientVinoTintoFooter` es un identificador único y no necesita ser calificado con elementos hijos.
+3. En el selector `.navbar`, tienes un error de ortografía en `background:transparent;`, debería ser `background: transparent;`.
+4. En el selector `.seccion-oscura p`, tienes un comentario en la línea siguiente al selector. Los comentarios no pueden estar inmediatamente después de un selector en CSS. Deberías moverlo o eliminarlo.
+5. En el selector `.experiencia .row`, el comentario en la línea siguiente también está mal ubicado. Deberías moverlo o eliminarlo.
+6. En el selector `.experiencia div`, el comentario dentro del selector está mal formateado y debe eliminarse.
+*/
 
 /*------------------------------Selectores de tipo:*/
 
-body{
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
-
-/*h1{
-    font-size: 2.5rem;
-    font-family: "Rubik Dirt", system-ui;
-    text-align: center;
-}*/
 
 /*----------------------------------Selectores Id:*/
 
-#fondoGradientAzul{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
-/*background: linear-gradient(135deg,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-color: white;
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#001968+0,356aa0+100 */
-background: linear-gradient(135deg,  rgba(0,25,104,1) 0%,rgba(53,106,160,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-padding: 20px;
-margin-top: auto;
-
+#fondoGradientAzul {
+    color: white;
+    background: linear-gradient(135deg, rgba(0, 25, 104, 1) 0%, rgba(53, 106, 160, 1) 100%);
+    padding: 20px;
+    margin-top: auto;
 }
 
-
-#fondoGradientVinoTintoFooter ul li{
+#fondoGradientVinoTintoFooter {
     list-style: none;
     font-size: 18px;
 }
 
-#fondoGradientVinoTintoFooter a{
+#fondoGradientVinoTintoFooter a {
     color: azure;
     text-decoration: none;
 }
 
-#qrFooterCard{
+#qrFooterCard {
     margin: 6px;
     width: 100%;
     height: 100%;
 }
 
-#fondo-deg-hero{
-
-background: #f5f6f7;
+#fondo-deg-hero {
+    background: #f5f6f7;
 }
 
-#link-header a:hover{
+#link-header a:hover {
     text-decoration: underline;
 }
 
 /*----------------------------------SELECTORES DE CLASE:*/
-.navbar{
+
+.navbar {
     padding: 2rem;
-    background:transparent;
+    background: transparent;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
 
-.seccion-titulo{
+.seccion-titulo {
     font-size: 2rem;
     padding: 15px 0;
-    font-family: "Rubik Dirt", cursive ;
+    font-family: "Rubik Dirt", cursive;
 }
 
-.hero{/*[SECCIÓN: HERO]*/
+.hero {
     background-color: #f5f6f7;
     min-height: 450px;
     text-align: center;
 }
 
-.hero-principal{/*[SECCIÓN: HERO]*/
+.hero-principal {
     padding: 3rem;
 }
 
-.hero-principal h2{/*[SECCIÓN: HERO]*/
+.hero-principal h2 {
     font-size: 2rem;
     color: #615151;
     text-align: justify;
     margin-top: 1rem;
 }
 
-.hero-inferior{/*[SECCIÓN: HERO]*/
+.hero-inferior {
     background-color: #f5f6f7;
 }
 
-.hero-inferior-imagen{/*[SECCIÓN: HERO]*/
+.hero-inferior-imagen {
     justify-content: center;
     align-items: center;
 }
 
-.imagen-hero-desarrollador{/*[SECCIÓN: HERO]*/
+.imagen-hero-desarrollador {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin: 20px;
 }
 
-.seccion-oscura{/*[SECCIÓN: SOBRE MI]*/
+.seccion-oscura {
     background-color: #1b1b32;
-    color:white;
+    color: white;
     padding: 5px;
     justify-content: center;
     align-items: center;
 }
 
-.seccion-oscura p{/*[SECCIÓN: SOBRE MI]*/
+.seccion-oscura p {
     text-align: justify;
     padding: 7px;
     margin: 1px;
     font-size: 1.5rem;
-    /*border: 1px solid greenyellow;*/
-    justify-content: center;
-    align-items: center;
 }
-.sobre-mi{/*[SECCIÓN: SOBRE MI]*/
+
+.sobre-mi {
     height: 90%;
     padding: 5px;
-    /*border: 1px solid red;*/
 }
 
-.sobre-mi .contenedor{/*[SECCIÓN: SOBRE MI]*/
+.sobre-mi .contenedor {
     width: 99.9%;
     text-align: center;
-    /*border: 1px solid orange;*/
 }
 
-.experiencia{/*[SECCIÓN: EXPERIENCIA]*/
+.experiencia {
     padding: 40px 40px 60px 40px;
 }
 
-.experiencia .row{/*[SECCIÓN: EXPERIENCIA]*/
-  height: 371px;
-  background-color: #e8e8f0;
+.experiencia .row {
+    height: 371px;
+    background-color: #e8e8f0;
 }
 
-.experiencia div{/*[SECCIÓN: EXPERIENCIA]*/
-  /*border:1px solid orange;*/
-  background-color: #e8e8f0;
+.experiencia i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
 }
 
-.experiencia i{/*[SECCIÓN: EXPERIENCIA]*/
-  
-  font-size: 2.5rem;
-  color:#7ade30;
-  background-color: #0a0a23;
-  padding: 8px 19px;
-  border-radius: 50%;
+.experiencia .columna {
+    padding: 20px;
+    border: 1px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
 }
 
-.experiencia .columna{/*[SECCIÓN: EXPERIENCIA]*/
-  padding: 20px;
-  border: 1px solid #8080804d;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:space-evenly;
-  transition: all 0.2s ease-in;
+.experiencia .columna:hover {
+    background-color: #1b1b32;
+    color: white;
 }
 
-.experiencia .columna:hover{/*[SECCIÓN: EXPERIENCIA]*/
-background-color: #1b1b32;
-color: white;
-
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 5px 0;
 }
 
-.experiencia-titulo{/*[SECCIÓN: EXPERIENCIA]*/
-  font-size: 25px;
-  font-weight: bolder;
-  margin: 5px 0;
+.seccion-clara {
+    color: black;
+    background-color: white;
 }
 
-.seccion-clara{/*[SECCIÓN: EXPERIENCIA]*/
-  color: black;
-  background-color: white;
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
 }
 
-.badges-contenedor{
-  font-size: 20px;
-  font-weight: bold;
-  margin: 5px 0;
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
 }
 
-.seccion-descripcion{
-  font-size: 1.2rem;
-  color: #584e4e;
+.seccion-texto {
+    font-size: 1.2rem;
 }
 
-.seccion-texto{
-  font-size: 1.2rem;
+.btn-info {
+    font-size: 1.1rem;
+    margin: 20px;
+    font-weight: bold;
 }
 
-.btn-info{
-  font-size: 1.1rem;
-  margin: 20px;
-  font-weight: bold;
+.texto-negro {
+    color: black;
 }
 
-.texto-negro{
-  color: black;
+.texto-blanco {
+    color: white;
 }
 
-.texto-blanco{
-  color: white;
+.badge {
+    margin: 2px;
 }
 
-.badge{
-  margin: 2px;
+.proyectos-recientes {
+    padding: 40px;
 }
 
-.proyectos-recientes{
-  padding: 40px;
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
 }
 
-.proyectos-recientes img{
-  height: 100%;
-  width: 100%;
-  padding: 10px;
-  border-radius: 10px;
-  display: block;
-  transition: all 0.2s ease;
+.proyectos-contenedor {
+    padding: 60px;
+    margin-bottom: 40px;
 }
 
-.proyectos-contenedor{
-  padding: 60px;
-  margin-bottom: 40px;
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-.overlay{
-  transition: all 0.2s ease;
-  opacity: 0;
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate( -50%, -50%);
-  text-align: center;
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
-.overlay p{
-  font-size: 25px;
-  font-weight: bold;
-  margin-bottom: 0;
+.overlay .iconos-contenedor {
+    display: flex;
 }
 
-.overlay .iconos-contenedor{
-  display: flex;
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
 }
 
-.overlay i{
-  color: black;
-  font-size: 60px;
-  margin: 10px;
+.proyecto {
+    position: relative;
 }
 
-.proyecto{
-  position: relative;
+.proyecto:hover img {
+    opacity: 0.2;
 }
 
-.proyecto:hover img{
-  opacity: 0.2;
+.proyecto:hover .overlay {
+    opacity: 1;
 }
 
-.proyecto:hover .overlay{
-  opacity: 1;
-}
-
-.ephesis-regular {/*[ESTILO DE LETRAS]*/
+.ephesis-regular {
     font-family: "Ephesis", cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 38px;
 }
 
-.exo-font {/*[ESTILO DE LETRAS]*/
+.exo-font {
     font-family: "Exo", sans-serif;
     font-optical-sizing: auto;
-    font-size:xx-large;
+    font-size: xx-large;
     font-weight: weight;
+
+
     font-style: normal;
 }
 
-
-.rubik-dirt-regular {/*[ESTILO DE LETRAS]*/
+.rubik-dirt-regular {
     font-family: "Rubik Dirt", system-ui;
     font-weight: 400;
     font-style: normal;
@@ -304,29 +290,28 @@ color: white;
 
 /*----------------------------------------Media Querys:*/
 
-@media screen and (max-width:400px){
-  .overlay p{
-    font-size: 18px;
-  }
-
-  .overlay i{
-    font-size: 14px;
-  }
-}
-
-
-@media screen and (max-width:767px){
-    .navbar-brand{
-        display: none;
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
     }
 
-    .card{
-        display: none;
+    .overlay i {
+        font-size: 14px;
     }
 }
 
-@media screen and (min-width:700px){/*[IMAGEN DE HERO INFERIOR: LAPTOP,MONITOR,HTML,CSS,JS,REACT]*/
-    .hero-inferior-imagen{
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .card {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
         max-width: 600px;
     }
 }

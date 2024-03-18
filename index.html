@@ -24,7 +24,7 @@
         <header class="container-fluid" id="fondoGradientAzul"> <!--HEADER: menú principal entre otros-->
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-md navbar-ligth" id="fondoGradientVinoTinto">
+                    <nav class="navbar navbar-expand-md navbar-light" id="fondoGradientVinoTinto">
                         <div class="container-fluid">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -84,49 +84,48 @@
             </div>
           </div><br><!--[Fin Sección "Sobre mí"]-->
 
-          <div class="row seccion-clara"><!--[Sección "Experiencia"]-->
-            <div class="col-12">
-              <section class="experiencia">
-                <div class="container-fluid text-center">
-                  <div class="row">
-                    <div class="columna col-12 col-md-4"><!--[DESARROLLO WEB]-->
-                      <i class="bi bi-laptop"></i>
-                      <p class="experiencia-titulo">Desarollo Web.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
-                      <div class="badges-contenedo">
-                        <span class="badge text-bg-primary">HTML</span>
-                        <span class="badge text-bg-primary">CSS</span>
-                        <span class="badge text-bg-primary">JAVASCRIPT</span>
-                        <span class="badge text-bg-primary">REACT JS</span>
-                        <span class="badge text-bg-primary">NODE JS</span>
-                      </div>
-                    </div><!--[FIN DESARROLLO WEB]-->
-
-                    <div class="columna col-12 col-md-4"><!--[ARTÍCULOS WEB]-->
-                      <i class="bi bi-alphabet"></i>
-                      <p class="experiencia-titulo">Artículos.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
-                      <div class="badges-contenedo">
-                        <span class="badge text-bg-primary">Escribir</span>
-                        <span class="badge text-bg-primary">Editar</span>
-                        <span class="badge text-bg-primary">Blogs</span>
-                      </div>
-                    </div><!--[FIN ARTÍCULOS WEB]-->
-
-                    <div class="columna col-12 col-md-4"><!--[ESTUDIANTE WEB]-->
-                      <i class="bi bi-book"></i>
-                      <p class="experiencia-titulo">Estudiante.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
-                      <div class="badges-contenedo">
-                        <span class="badge text-bg-primary">FreeCodeCamp</span>
-                        <span class="badge text-bg-primary">Desarrollo Web</span>
-                        <span class="badge text-bg-primary">Ambiente Javascritp</span>
-                      </div>
-                    </div><!--[FIN ESTUDIANTE WEB]-->
+          <div class="experiencia seccion-clara"><!--[Sección "Experiencia"]-->
+            <div class="container text-center">
+              <div class="row">
+                
+                <div class="columna col-12 col-md-4"><!--[DESARROLLO WEB]-->
+                  <i class="bi bi-laptop"></i>
+                  <p class="experiencia-titulo">Desarollo Web.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
+                  <div class="badges-contenedo">
+                    <span class="badge text-bg-primary">HTML</span>
+                    <span class="badge text-bg-primary">CSS</span>
+                    <span class="badge text-bg-primary">JAVASCRIPT</span>
+                    <span class="badge text-bg-primary">REACT JS</span>
+                    <span class="badge text-bg-primary">NODE JS</span>
                   </div>
-                </div>
-              </section>
+                </div><!--[FIN DESARROLLO WEB]-->
+
+                <div class="columna col-12 col-md-4"><!--[ARTÍCULOS WEB]-->
+                  <i class="bi bi-alphabet"></i>
+                  <p class="experiencia-titulo">Artículos.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
+                  <div class="badges-contenedo">
+                    <span class="badge text-bg-primary">Escribir</span>
+                    <span class="badge text-bg-primary">Editar</span>
+                    <span class="badge text-bg-primary">Blogs</span>
+                  </div>
+                </div><!--[FIN ARTÍCULOS WEB]-->
+
+                <div class="columna col-12 col-md-4"><!--[ESTUDIANTE WEB]-->
+                  <i class="bi bi-book"></i>
+                  <p class="experiencia-titulo">Estudiante.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vestibulum sapien. Ut bibendum risus libero, sit amet convallis sapien feugiat a. Aliquam egestas nulla id elit elementum cursus... </p>
+                  <div class="badges-contenedo">
+                    <span class="badge text-bg-primary">FreeCodeCamp</span>
+                    <span class="badge text-bg-primary">Desarrollo Web</span>
+                    <span class="badge text-bg-primary">Ambiente Javascritp</span>
+                  </div>
+                </div><!--[FIN ESTUDIANTE WEB]-->
+              
+              </div><!---[Fin de la fila de row]--->
             </div>
+
           </div><!--[Fin Sección "Experiencia"]-->
           
           <div class="proyectos-recientes seccion-clara d-flex flex-column justify-content-center align-items-center"><!--[Sección Proyectos]-->
@@ -232,10 +231,12 @@
                     </div>
                   </div><!--Fin proyecto 06-->
                 </div><br>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="nav-link text-light">
                   <button type="button" class="btn btn-info">
                     Ver más proyectos
-                    <i class="bi bi-arrow-right-circle-fill"></i>
+                    <span>
+                      <i class="bi bi-arrow-right-circle-fill"></i>
+                    </span>
                   </button>
                 </a>
               </div>
@@ -248,13 +249,13 @@
         <footer class="text-light" id="fondoGradientAzul"><!--Píe de página del portafolio-->
             <div class="row" id="pie-pagina">
                 <div class="col-3">
-                    <caption>Social media</caption>
+                    <h6>Social media</h6>
                     <ul>
                         <li><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/asdrubal-josé-corales-pérez-735391205" target="_blank" rel="noopener noreferrer"> Ascor</a></li>
                         <li><i class="bi bi-facebook"></i><a href="https://www.facebook.com/acorales" target="_blank" rel="noopener noreferrer"> acorales</a></li>
                     </ul>
                     <div>
-                        <a href="#fondoGradientVinoTinto" class="nav-link text-light" rel="noopener noreferrer" placeholder="Subir">
+                        <a href="#fondoGradientAzul" class="nav-link text-light" rel="noopener noreferrer" placeholder="Subir">
                         <i class="bi bi-box-arrow-up"></i>
                         </a>
                     </div>
@@ -266,7 +267,7 @@
                     <div class="card" id="qrFooterCard">
                         <img src="img/miQRwhatsapp.jpeg" alt="Código QR no disponible" class="card-img-top">
                         <div class="card-body">
-                        <i class="bi bi-whatsapp"></i> +58 412-4811678
+                        <i class="bi bi-whatsapp"> +58 412-4811678</i>
                         <h5 class="card-title">Mi whatsapp</h5>
                         </div>
                     </div>
