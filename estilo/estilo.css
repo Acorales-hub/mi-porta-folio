@@ -27,15 +27,11 @@ section {
 
 #fondoGradientAzul {
     color: white;
-    background: linear-gradient(135deg, rgba(0, 25, 104, 1) 0%, rgba(53, 106, 160, 1) 100%);
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 39%,#207cca 60%,#3083c2 100%);
     padding: 20px;
     margin-top: auto;
 }
 
-#fondoGradientVinoTintoFooter {
-    list-style: none;
-    font-size: 18px;
-}
 
 #fondoGradientVinoTintoFooter a {
     color: azure;
@@ -115,33 +111,33 @@ section {
     align-items: center;
 }
 
-.seccion-oscura p {
+.seccion-oscura p{
     text-align: justify;
     padding: 7px;
     margin: 1px;
     font-size: 1.5rem;
 }
 
-.sobre-mi {
+.sobre-mi{
     height: 90%;
     padding: 5px;
 }
 
-.sobre-mi .contenedor {
+.sobre-mi .contenedor{
     width: 99.9%;
     text-align: center;
 }
 
-.experiencia {
+.experiencia{
     padding: 40px 40px 60px 40px;
 }
 
-.experiencia .row {
+.experiencia .row{
     height: 371px;
     background-color: #e8e8f0;
 }
 
-.experiencia i {
+.experiencia i{
     font-size: 2.5rem;
     color: #7ade30;
     background-color: #0a0a23;
@@ -204,12 +200,13 @@ section {
     color: white;
 }
 
-.badge {
+.badge{
     margin: 2px;
 }
 
 .proyectos-recientes {
     padding: 40px;
+    position:sticky;
 }
 
 .proyectos-recientes img {
@@ -314,4 +311,14 @@ section {
     .hero-inferior-imagen {
         max-width: 600px;
     }
+}
+
+@media screen and (max-width: 767px) {
+  .order-first {
+      order: 2; /* Cambia el orden en pantallas pequeñas */
+  }
+
+  .order-last {
+      order: 1; /* Cambia el orden en pantallas pequeñas */
+  }
 }
